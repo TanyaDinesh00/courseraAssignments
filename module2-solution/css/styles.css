@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: medium;
+}
+* {
+  box-sizing: border-box;
+}
+.menu_card {
+  background-color: grey;
+  border: 3px solid black;
+  margin: 20px;
+}
+.outter_card {
+  float: left;
+}
+section {
+  padding: 10px;
+  clear: right;
+}
+p {
+  width: 100px;
+  border: 3px solid black;
+  border-top: 0px;
+  border-right: 0px;
+  margin: 0px;
+  float: right;
+  font-size: 125%;
+  text-align: center;
+  font-weight: bold;
+}
+h1 {
+  text-align: center;
+  font-size: 175%;
+}
+#p1 {
+  background-color: pink;
+}
+#p2 {
+  background-color: #c14543;
+  color: white;
+}
+#p3 {
+  background-color: #e5d198;
+}
+@media (min-width: 992px) {
+  .col-ld-4 {
+    width: 33.33%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .col-sd-12 {
+    width: 100%;
+  }
+}
